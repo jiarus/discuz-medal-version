@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upload/template/default/home/space_profile_body.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="92" column="16" lean-forward="true" selection-start-line="88" selection-start-column="12" selection-end-line="92" selection-end-column="16" />
+            <state relative-caret-position="708">
+              <caret line="84" column="18" selection-end-line="229" selection-end-column="6" />
               <folding>
                 <element signature="e#220#226#0" expanded="true" />
                 <element signature="e#1668#1674#0" expanded="true" />
@@ -86,9 +86,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upload/source/function/function_space.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="99" column="17" lean-forward="true" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+              <folding>
+                <element signature="e#7#196#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -124,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/upload/data/template/1_1_home_space_profile.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="41" />
+            <state relative-caret-position="321">
+              <caret line="453" column="45" selection-start-line="453" selection-start-column="45" selection-end-line="453" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -231,11 +238,11 @@
       <list>
         <option value="$PROJECT_DIR$/upload/source/language/lang_admincp.php" />
         <option value="$PROJECT_DIR$/upload/source/admincp/admincp_medals.php" />
-        <option value="$PROJECT_DIR$/upload/template/default/home/space_profile_body.htm" />
         <option value="$PROJECT_DIR$/utility/update.php" />
         <option value="$PROJECT_DIR$/upload/source/function/function_forum.php" />
         <option value="$PROJECT_DIR$/upload/forum.php" />
         <option value="$PROJECT_DIR$/upload/source/function/function_space.php" />
+        <option value="$PROJECT_DIR$/upload/template/default/home/space_profile_body.htm" />
       </list>
     </option>
   </component>
@@ -279,53 +286,6 @@
             <path>
               <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
               <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -371,16 +331,15 @@
       <workItem from="1567011419168" duration="988000" />
       <workItem from="1567013080214" duration="318000" />
       <workItem from="1567069710592" duration="9170000" />
-      <workItem from="1567165350056" duration="2576000" />
+      <workItem from="1567165350056" duration="3139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15372000" />
+    <option name="totallyTimeSpent" value="15935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -591,39 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/template/default/home/space_profile_body.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="92" column="16" lean-forward="true" selection-start-line="88" selection-start-column="12" selection-end-line="92" selection-end-column="16" />
-          <folding>
-            <element signature="e#220#226#0" expanded="true" />
-            <element signature="e#1668#1674#0" expanded="true" />
-            <element signature="e#1674#1680#0" expanded="true" />
-            <element signature="e#1996#2002#0" expanded="true" />
-            <element signature="e#2002#2008#0" expanded="true" />
-            <element signature="e#2133#2139#0" expanded="true" />
-            <element signature="e#2139#2145#0" expanded="true" />
-            <element signature="e#2292#2298#0" expanded="true" />
-            <element signature="e#2298#2304#0" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#6052#6058#0" expanded="true" />
-            <element signature="e#6334#6340#0" expanded="true" />
-            <element signature="e#6657#6663#0" expanded="true" />
-            <element signature="e#6930#6936#0" expanded="true" />
-            <element signature="e#7126#7132#0" expanded="true" />
-            <element signature="e#7132#7138#0" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#6;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#7397#7403#0" expanded="true" />
-            <element signature="e#7403#7409#0" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#6;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#7808#7814#0" expanded="true" />
-            <element signature="e#7838#7844#0" expanded="true" />
-            <element signature="e#7990#7996#0" expanded="true" />
-            <element signature="e#7996#8002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload/data/cache/style_1_forum_viewthread.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -689,15 +615,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/data/template/1_1_home_space_profile.tpl.php">
+    <entry file="file://$PROJECT_DIR$/upload/source/function/function_space.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="41" />
+        <state relative-caret-position="331">
+          <caret line="99" column="17" lean-forward="true" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+          <folding>
+            <element signature="e#7#196#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/source/function/function_space.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/upload/template/default/home/space_profile_body.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="84" column="18" selection-end-line="229" selection-end-column="6" />
+          <folding>
+            <element signature="e#220#226#0" expanded="true" />
+            <element signature="e#1668#1674#0" expanded="true" />
+            <element signature="e#1674#1680#0" expanded="true" />
+            <element signature="e#1996#2002#0" expanded="true" />
+            <element signature="e#2002#2008#0" expanded="true" />
+            <element signature="e#2133#2139#0" expanded="true" />
+            <element signature="e#2139#2145#0" expanded="true" />
+            <element signature="e#2292#2298#0" expanded="true" />
+            <element signature="e#2298#2304#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#6052#6058#0" expanded="true" />
+            <element signature="e#6334#6340#0" expanded="true" />
+            <element signature="e#6657#6663#0" expanded="true" />
+            <element signature="e#6930#6936#0" expanded="true" />
+            <element signature="e#7126#7132#0" expanded="true" />
+            <element signature="e#7132#7138#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#6;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#7397#7403#0" expanded="true" />
+            <element signature="e#7403#7409#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#6;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#7808#7814#0" expanded="true" />
+            <element signature="e#7838#7844#0" expanded="true" />
+            <element signature="e#7990#7996#0" expanded="true" />
+            <element signature="e#7996#8002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/data/template/1_1_home_space_profile.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="453" column="45" selection-start-line="453" selection-start-column="45" selection-end-line="453" selection-end-column="45" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
