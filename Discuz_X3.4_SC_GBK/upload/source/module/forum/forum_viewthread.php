@@ -1147,13 +1147,18 @@ function viewthread_procpost($post, $lastvisit, $ordertype, $maxposition = 0) {
 
 		$post['authoras'] = !$post['anonymous'] ? ' '.addslashes($post['author']) : '';
 
+		//todo medals
+        //print_r($_G);
+
 		if($post['medals']) {
 			loadcache('medals');
 			foreach($post['medals'] = explode("\t", $post['medals']) as $key => $medalid) {
 				list($medalid, $medalexpiration) = explode("|", $medalid);
 				if(isset($_G['cache']['medals'][$medalid]) && (!$medalexpiration || $medalexpiration > TIMESTAMP)) {
 					$post['medals'][$key] = $_G['cache']['medals'][$medalid];
+                   // print_r($post['medals'][$key]);
 					$post['medals'][$key]['medalid'] = $medalid;
+                    //print_r($post['medals']);
 					$_G['medal_list'][$medalid] = $_G['cache']['medals'][$medalid];
 				} else {
 					unset($post['medals'][$key]);

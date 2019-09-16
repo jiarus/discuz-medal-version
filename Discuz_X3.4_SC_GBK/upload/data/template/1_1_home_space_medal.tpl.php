@@ -82,7 +82,8 @@
 <?php } ?>
 </ul>
 <?php } } elseif($_GET['action'] == 'log') { if($mymedals) { ?>
-<ul class="mtm mgcl cl"><?php if(is_array($mymedals)) foreach($mymedals as $mymedal) { ?><li>
+<ul class="mtm mgcl cl"><?php if(is_array($mymedals)) foreach($mymedals as $mymedal) { ?><?php echo $mymedals;?>
+<li>
 <div class="mg_img"><img src="<?php echo STATICURL;?>image/common/<?php echo $mymedal['image'];?>" alt="<?php echo $mymedal['name'];?>" style="margin-top: 20px;width:auto; height: auto;" /></div>
 <p><strong><?php echo $mymedal['name'];?></strong></p>
 </li>

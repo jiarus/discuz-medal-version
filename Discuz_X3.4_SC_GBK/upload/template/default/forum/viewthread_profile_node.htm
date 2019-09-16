@@ -37,9 +37,45 @@ function profile_node_customstatus($post, $s, $e) {
 	return $return;
 }
 
+
 function profile_node_medal($post, $s, $e) {
+	//todo
+	$categoryArr = array(
+			array('id' => 1, 'name' => '类型一'),
+			array('id' => 2, 'name' => '类型二'),
+			array('id' => 3, 'name' => '类型三'));
 	if(!$post['medals']) return;
-	foreach($post['medals'] as $medal) $return .= '<img id="md_'.$post['pid'].'_'.$medal['medalid'].'" src="'.STATICURL.'image/common/'.$medal['image'].'" alt="'.$medal['name'].'" title="" onmouseover="showMenu({\'ctrlid\':this.id, \'menuid\':\'md_'.$medal['medalid'].'_menu\', \'pos\':\'12!\'})" />';
+	$categoryMap = array_map();
+
+	foreach($post['medals'] as $medal){
+		if(empty($categoryMap[$medal[category]])){
+		   $medal['pid'] = $post['pid'];
+		   $categoryList=array($medal);
+		   $categoryMap[$medal['category']] = $categoryList;
+		   continue;
+		}
+		$categoryList = $categoryMap[$medal[category]];
+		array_push($categoryList,$medal);
+		$categoryMap[$medal['category']] = $categoryList;
+	}
+
+	foreach ($categoryMap as $k=>$v){
+
+		foreach ($categoryArr as $key=>$value){
+			//print_r($value['id']);
+			if($categoryArr[$key]['id'] == $k){
+				//echo $k."=>".$v."<br />";
+				$return .= '<p>' .$value["name"]. '</p>';
+			}
+		}
+
+		for ($i=0;$i<count($v);$i++){
+
+			$return .= '<img id="md_'.$v[$i]['pid'].'_'.$v[$i]['medalid'].'" src="'.STATICURL.'image/common/'.$v[$i]['image'].'" alt="'.$v[$i]['name'].'" title="" onmouseover="showMenu({\'ctrlid\':this.id, \'menuid\':\'md_'.$v[$i]['medalid'].'_menu\', \'pos\':\'12!\'})" />';
+		}
+		$return .= '<br/>';
+		unset($v);
+	}
 -->
 <!--{/eval}-->
 <!--{block return}-->$s<a href="home.php?mod=medal">$return</a>$e<!--{/block}-->
