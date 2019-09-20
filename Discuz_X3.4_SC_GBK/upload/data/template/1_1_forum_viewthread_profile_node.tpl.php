@@ -80,15 +80,14 @@ foreach ($categoryArr as $key=>$value){
 //print_r($value['id']);
 if($categoryArr[$key]['id'] == $k){
 //echo $k."=>".$v."<br />";
-$return .= '<p>' .$value["name"]. '</p>';
+$return .= '<p>' . $value["name"] . '</p>';
 }
 }
-
+$return .= '<p>';
 for ($i=0;$i<count($v);$i++){
-
 $return .= '<img id="md_'.$v[$i]['pid'].'_'.$v[$i]['medalid'].'" src="'.STATICURL.'image/common/'.$v[$i]['image'].'" alt="'.$v[$i]['name'].'" title="" onmouseover="showMenu({\'ctrlid\':this.id, \'menuid\':\'md_'.$v[$i]['medalid'].'_menu\', \'pos\':\'12!\'})" />';
 }
-$return .= '<br/>';
+$return .= '</p>';
 unset($v);
 }
 ?><?php

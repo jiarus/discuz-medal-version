@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa011c1-0fb6-4a9e-9050-ad0022c4461e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/log/201909_cplog.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/data/log/201909_cplog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_common_header_home_medal.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/data/template/1_1_common_header_home_medal.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_home_space_medal.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/data/template/1_1_home_space_medal.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/source/module/home/home_medal.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/source/module/home/home_medal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/template/default/home/space_medal.htm" beforeDir="false" afterPath="$PROJECT_DIR$/upload/template/default/home/space_medal.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_forum_viewthread_profile_node.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/data/template/1_1_forum_viewthread_profile_node.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/template/default/forum/viewthread_profile_node.htm" beforeDir="false" afterPath="$PROJECT_DIR$/upload/template/default/forum/viewthread_profile_node.htm" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,22 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/template/default/forum/viewthread.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5955">
-              <caret line="397" column="27" selection-start-line="397" selection-start-column="27" selection-end-line="397" selection-end-column="27" />
-              <folding>
-                <element signature="e#26145#26167#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upload/template/default/home/space_medal.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="161" column="33" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="33" />
+            <state relative-caret-position="331">
+              <caret line="170" column="22" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
               <folding>
                 <element signature="e#162#170#1" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -54,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upload/source/module/home/home_medal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="151" column="68" lean-forward="true" selection-start-line="151" selection-start-column="68" selection-end-line="151" selection-end-column="68" />
+            <state relative-caret-position="285">
+              <caret line="153" column="9" lean-forward="true" selection-start-line="153" selection-start-column="9" selection-end-line="153" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -120,8 +104,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upload/template/default/forum/viewthread_node.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="119" column="35" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="35" />
+            <state relative-caret-position="330">
+              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/upload/template/default/forum/viewthread_profile_node.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -130,13 +123,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>forum_threadprofile</find>
       <find>update_admincp_manage</find>
       <find>build_cache_founder</find>
       <find>onmouseover=&quot;showMenu({</find>
       <find>onmouseover=&quot;showMenu({'ctrlid':this.id, 'menuid':</find>
       <find>class=&quot;cp_pls cl&quot;</find>
-      <find>md_ctrl</find>
       <find>cp_pls cl</find>
       <find>medal</find>
       <find>showMenu</find>
@@ -160,6 +151,8 @@
       <find>$categoryArr</find>
       <find>$mymedals</find>
       <find>fetch_all_by_uid</find>
+      <find>&lt;p&gt;</find>
+      <find>md_ctrl</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -185,11 +178,11 @@
         <option value="$PROJECT_DIR$/upload/source/function/cache/cache_medals.php" />
         <option value="$PROJECT_DIR$/upload/template/default/forum/viewthread.htm" />
         <option value="$PROJECT_DIR$/upload/source/module/forum/forum_viewthread.php" />
-        <option value="$PROJECT_DIR$/upload/template/default/forum/viewthread_profile_node.htm" />
         <option value="$PROJECT_DIR$/upload/template/default/home/space_magic_shop.htm" />
         <option value="$PROJECT_DIR$/upload/template/default/home/space_magic_mybox.htm" />
-        <option value="$PROJECT_DIR$/upload/template/default/home/space_medal.htm" />
         <option value="$PROJECT_DIR$/upload/source/module/home/home_medal.php" />
+        <option value="$PROJECT_DIR$/upload/template/default/home/space_medal.htm" />
+        <option value="$PROJECT_DIR$/upload/template/default/forum/viewthread_profile_node.htm" />
       </list>
     </option>
   </component>
@@ -233,32 +226,6 @@
             <path>
               <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
               <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,12 +279,12 @@
       <workItem from="1568633393266" duration="2648000" />
       <workItem from="1568657120737" duration="731000" />
       <workItem from="1568807427370" duration="9419000" />
-      <workItem from="1568964004431" duration="3946000" />
+      <workItem from="1568964004431" duration="4980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48542000" />
+    <option name="totallyTimeSpent" value="49576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -332,7 +299,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -345,7 +312,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="JProfiler" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.31084338" />
@@ -713,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/template/default/forum/viewthread_profile_node.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload/source/admincp/admincp_medals.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -779,17 +739,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/template/default/forum/viewthread_node.htm">
+    <entry file="file://$PROJECT_DIR$/upload/source/module/home/home_medal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="119" column="35" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="35" />
+        <state relative-caret-position="285">
+          <caret line="153" column="9" lean-forward="true" selection-start-line="153" selection-start-column="9" selection-end-line="153" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/upload/template/default/home/space_medal.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="161" column="33" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="33" />
+        <state relative-caret-position="331">
+          <caret line="170" column="22" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
           <folding>
             <element signature="e#162#170#1" expanded="true" />
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -801,10 +761,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/source/module/home/home_medal.php">
+    <entry file="file://$PROJECT_DIR$/upload/template/default/forum/viewthread_node.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="151" column="68" lean-forward="true" selection-start-line="151" selection-start-column="68" selection-end-line="151" selection-end-column="68" />
+        <state relative-caret-position="330">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/template/default/forum/viewthread_profile_node.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
         </state>
       </provider>
     </entry>
