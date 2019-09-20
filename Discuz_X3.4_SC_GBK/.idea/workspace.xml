@@ -2,38 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa011c1-0fb6-4a9e-9050-ad0022c4461e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/diy/template/default/group/index.htm.bak" beforeDir="false" afterPath="$PROJECT_DIR$/upload/data/diy/template/default/group/index.htm.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/log/201908_cplog.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/data/log/201908_cplog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_common_extgroups.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_common_header_diynav.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_common_header_forum_forumdisplay.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_common_header_forum_index.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_common_header_forum_post.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_common_header_forum_viewthread.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/data/log/201909_cplog.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/data/log/201909_cplog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_common_header_home_medal.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/data/template/1_1_common_header_home_medal.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_common_header_home_space.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_common_showmessage.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_forum_discuzcode.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_forum_forumdisplay_fastpost.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_forum_post.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_forum_topicadmin_modlayer.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_forum_viewthread_profile_node.tpl.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_home_space_medal.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/data/template/1_1_home_space_medal.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_home_space_menu.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_home_space_profile.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_member_login.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_1_member_login_simple.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_diy_forum_discuz.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_diy_forum_forumdisplay.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/1_diy_forum_viewthread.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/data/template/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/upload/data/template/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/source/function/cache/cache_medals.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/source/function/cache/cache_medals.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/source/module/forum/forum_viewthread.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/source/module/forum/forum_viewthread.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/template/default/forum/viewthread_profile_node.htm" beforeDir="false" afterPath="$PROJECT_DIR$/upload/template/default/forum/viewthread_profile_node.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/source/module/home/home_medal.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/source/module/home/home_medal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/upload/template/default/home/space_medal.htm" beforeDir="false" afterPath="$PROJECT_DIR$/upload/template/default/home/space_medal.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/template/default/home/spacecp_favorite.htm" beforeDir="false" afterPath="$PROJECT_DIR$/upload/template/default/home/spacecp_favorite.htm" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,33 +26,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/source/module/forum/forum_viewthread.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17325">
-              <caret line="1160" column="22" selection-start-line="1160" selection-start-column="22" selection-end-line="1160" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/template/default/forum/viewthread_profile_node.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/source/admincp/admincp_medals.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="43" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upload/template/default/forum/viewthread.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5955">
@@ -90,24 +37,64 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upload/template/default/home/space_medal.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="123" column="56" selection-start-line="123" selection-start-column="56" selection-end-line="123" selection-end-column="56" />
+            <state relative-caret-position="196">
+              <caret line="161" column="33" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="33" />
               <folding>
+                <element signature="e#162#170#1" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#3;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/upload/source/module/home/home_medal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="151" column="68" lean-forward="true" selection-start-line="151" selection-start-column="68" selection-end-line="151" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/source/module/home/home_space.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/template/default/home/space_magic_shop.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/template/default/home/space_magic_shop.htm">
+        <entry file="file://$PROJECT_DIR$/upload/template/default/home/space_magic_mybox.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="165">
+              <caret line="11" column="86" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/data/template/1_1_home_space_medal.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -143,13 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>upgradecredit</find>
-      <find>&lt;p class=&quot;md_ctrl&quot;&gt;</find>
-      <find>pil cl</find>
-      <find>table_forum_threadprofile</find>
-      <find>tns xg2</find>
-      <find>tns xg2&quot;</find>
-      <find>$threadprofiles</find>
       <find>forum_threadprofile</find>
       <find>update_admincp_manage</find>
       <find>build_cache_founder</find>
@@ -171,8 +151,15 @@
       <find>prin</find>
       <find>$_G</find>
       <find>Arr</find>
-      <find>mtm mgcl cl</find>
       <find>$mymedal</find>
+      <find>space_medal</find>
+      <find>$categoryMap</find>
+      <find>$categoryList</find>
+      <find>mtm mgcl cl</find>
+      <find>$medallist</find>
+      <find>$categoryArr</find>
+      <find>$mymedals</find>
+      <find>fetch_all_by_uid</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -200,7 +187,9 @@
         <option value="$PROJECT_DIR$/upload/source/module/forum/forum_viewthread.php" />
         <option value="$PROJECT_DIR$/upload/template/default/forum/viewthread_profile_node.htm" />
         <option value="$PROJECT_DIR$/upload/template/default/home/space_magic_shop.htm" />
+        <option value="$PROJECT_DIR$/upload/template/default/home/space_magic_mybox.htm" />
         <option value="$PROJECT_DIR$/upload/template/default/home/space_medal.htm" />
+        <option value="$PROJECT_DIR$/upload/source/module/home/home_medal.php" />
       </list>
     </option>
   </component>
@@ -226,9 +215,10 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="914" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -236,7 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,33 +243,6 @@
               <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
               <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
               <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -288,14 +251,6 @@
               <item name="upload" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
@@ -305,17 +260,11 @@
               <item name="default" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Discuz_X3.4_SC_GBK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discuz_X3.4_SC_GBK" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="uc_client" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,12 +309,15 @@
       <workItem from="1567165350056" duration="7484000" />
       <workItem from="1568213805847" duration="11482000" />
       <workItem from="1568631415598" duration="36000" />
-      <workItem from="1568633393266" duration="1264000" />
+      <workItem from="1568633393266" duration="2648000" />
+      <workItem from="1568657120737" duration="731000" />
+      <workItem from="1568807427370" duration="9419000" />
+      <workItem from="1568964004431" duration="3946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33062000" />
+    <option name="totallyTimeSpent" value="48542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,10 +329,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -391,13 +343,14 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="JProfiler" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31084338" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -410,18 +363,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/upload/install/index.php" />
-    <entry file="file://$PROJECT_DIR$/upload/connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/crossdomain.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -644,13 +596,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/data/template/1_1_forum_viewthread_profile_node.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/data/template/1_1_forum_viewthread_profile_node.tpl.php" />
     <entry file="file://$PROJECT_DIR$/upload/source/plugin/wechat/table/table_mobile_wechat_resource.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
@@ -683,13 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/source/module/home/home_medal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -766,10 +705,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/upload/data/template/1_diy_forum_viewthread.tpl.php" />
     <entry file="file://$PROJECT_DIR$/upload/source/module/forum/forum_viewthread.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17325">
           <caret line="1160" column="22" selection-start-line="1160" selection-start-column="22" selection-end-line="1160" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/template/default/forum/viewthread_profile_node.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -787,6 +734,34 @@
           <folding>
             <element signature="e#26145#26167#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/source/module/home/home_space.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/template/default/home/space_magic_shop.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/template/default/home/space_magic_mybox.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="86" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/data/template/1_1_home_space_medal.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -811,35 +786,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/data/template/1_diy_forum_viewthread.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5340">
-          <caret line="356" column="10" selection-start-line="356" selection-start-column="10" selection-end-line="356" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/template/default/forum/viewthread_profile_node.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/template/default/home/space_magic_shop.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload/template/default/home/space_medal.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="123" column="56" selection-start-line="123" selection-start-column="56" selection-end-line="123" selection-end-column="56" />
+        <state relative-caret-position="196">
+          <caret line="161" column="33" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="33" />
           <folding>
+            <element signature="e#162#170#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#3;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/source/module/home/home_medal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="151" column="68" lean-forward="true" selection-start-line="151" selection-start-column="68" selection-end-line="151" selection-end-column="68" />
         </state>
       </provider>
     </entry>

@@ -19,57 +19,106 @@
 目前有<?php $i = 0;?><?php if(is_array($medalcredits)) foreach($medalcredits as $id) { if($i != 0) { ?>, <?php } ?><?php echo $_G['setting']['extcredits'][$id]['img'];?> <?php echo $_G['setting']['extcredits'][$id]['title'];?> <span class="xi1"><?php echo getuserprofile('extcredits'.$id);; ?></span> <?php echo $_G['setting']['extcredits'][$id]['unit'];?><?php $i++;?><?php } ?>
 </div>
 <?php } ?>
-<ul class="mtm mgcl cl"><?php if(is_array($medallist)) foreach($medallist as $key => $medal) { ?><li>
-<div id="medal_<?php echo $medal['medalid'];?>_menu" class="tip tip_4" style="display:none">
-<div class="tip_horn"></div>
-<div class="tip_c" style="text-align:left">
-<p><?php echo $medal['description'];?></p>
-<p class="mtn">
-<?php if($medal['expiration']) { ?>
-有效期 <?php echo $medal['expiration'];?> 天,
-<?php } if($medal['permission'] && !$medal['price']) { ?>
-<?php echo $medal['permission'];?>
-<?php } else { if($medal['type'] == 0) { ?>
-人工授予
-<?php } elseif($medal['type'] == 1) { if($medal['price']) { if($_G['setting']['extcredits'][$medal['credit']]['unit']) { ?>
-<?php echo $_G['setting']['extcredits'][$medal['credit']]['title'];?> <strong class="xi1 xw1 xs2"><?php echo $medal['price'];?></strong> <?php echo $_G['setting']['extcredits'][$medal['credit']]['unit'];?>
-<?php } else { ?>
-<strong class="xi1 xw1 xs2"><?php echo $medal['price'];?></strong> <?php echo $_G['setting']['extcredits'][$medal['credit']]['title'];?>
-<?php } } else { ?>
-自主申请
-<?php } } elseif($medal['type'] == 2) { ?>
-人工审核
-<?php } } ?>
-</p>
-</div>
-</div>
-<div id="medal_<?php echo $medal['medalid'];?>" class="mg_img" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'medal_<?php echo $medal['medalid'];?>_menu', 'pos':'12!'});"><img src="<?php echo STATICURL;?>image/common/<?php echo $medal['image'];?>" alt="<?php echo $medal['name'];?>" style="margin-top: 20px;width:auto; height: auto;" /></div>
-<p class="xw1"><?php echo $medal['name'];?></p>
-<p>
-<?php if(in_array($medal['medalid'], $membermedal)) { ?>
-已拥有
-<?php } else { if($medal['type'] && $_G['uid']) { if(in_array($medal['medalid'], $mymedals)) { if($medal['price']) { ?>
-已购买
-<?php } else { if(!$medal['permission']) { ?>
-已申请
-<?php } else { ?>
-已领取
-<?php } } } else { ?>
-<a href="javascript:;" onclick="showWindow('medal', 'home.php?mod=medal&action=confirm&medalid=<?php echo $medal['medalid'];?>')" class="xi2">
-<?php if($medal['price']) { ?>
-购买
-<?php } else { if(!$medal['permission']) { ?>
-申请
-<?php } else { ?>
-领取
-<?php } } ?>
-</a>
-<?php } } } ?>
-</p>
-</li>
-<?php } ?>
-</ul>
-<?php } else { if($medallogs) { ?>
+                        <?php 
+$categoryArr = array(array('id' => 1, 'name' => '类型一'),
+                           array('id' => 2, 'name' => '类型二'),
+                           array('id' => 3, 'name' => '类型三')
+                        );
+                        $categoryMap = array_map();
+
+                        foreach($medallist as $medal_t){
+                            if(empty($categoryMap[$medal_t[category]])){
+                               $categoryList=array($medal_t);
+                               $categoryMap[$medal_t['category']] = $categoryList;
+                               continue;
+                            }
+                            $categoryList = $categoryMap[$medal_t[category]];
+                            array_push($categoryList,$medal_t);
+                            $categoryMap[$medal_t['category']] = $categoryList;
+                        }
+                        foreach ($categoryMap as $k=>$v){
+                            foreach ($categoryArr as $key=>$medalName){
+                                if($categoryArr[$key]['id'] == $k){
+                                    print_r($medalName["name"]);
+                                }
+                            }
+                        ?>                         <ul class="mtm mgcl cl">
+                        <?php 
+                            for ($i=0;$i<count($v);$i++){
+                                $medal = $v[$i];
+                               // print_r($medal);
+                        ?>                        <li>
+                            <div id="medal_<?php echo $medal['medalid'];?>_menu" class="tip tip_4" style="display:none">
+                                <div class="tip_horn"></div>
+                                <div class="tip_c" style="text-align:left">
+                                    <p><?php echo $medal['description'];?></p>
+                                    <p class="mtn">
+                                        <?php if($medal['expiration']) { ?>
+                                        有效期 <?php echo $medal['expiration'];?> 天,
+                                        <?php } ?>
+                                        <?php if($medal['permission'] && !$medal['price']) { ?>
+                                        <?php echo $medal['permission'];?>
+                                        <?php } else { ?>
+                                        <?php if($medal['type'] == 0) { ?>
+                                        人工授予
+                                        <?php } elseif($medal['type'] == 1) { ?>
+                                        <?php if($medal['price']) { ?>
+                                        <?php if($_G['setting']['extcredits'][$medal['credit']]['unit']) { ?>
+                                        <?php echo $_G['setting']['extcredits'][$medal['credit']]['title'];?> <strong class="xi1 xw1 xs2"><?php echo $medal['price'];?></strong> <?php echo $_G['setting']['extcredits'][$medal['credit']]['unit'];?>
+                                        <?php } else { ?>
+                                        <strong class="xi1 xw1 xs2"><?php echo $medal['price'];?></strong> <?php echo $_G['setting']['extcredits'][$medal['credit']]['title'];?>
+                                        <?php } ?>
+                                        <?php } else { ?>
+                                        自主申请
+                                        <?php } ?>
+                                        <?php } elseif($medal['type'] == 2) { ?>
+                                        人工审核
+                                        <?php } ?>
+                                        <?php } ?>
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="medal_<?php echo $medal['medalid'];?>" class="mg_img" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'medal_<?php echo $medal['medalid'];?>_menu', 'pos':'12!'});"><img src="<?php echo STATICURL;?>image/common/<?php echo $medal['image'];?>" alt="<?php echo $medal['name'];?>" style="margin-top: 20px;width:auto; height: auto;" /></div>
+                            <p class="xw1"><?php echo $medal['name'];?></p>
+                            <p>
+                                <?php if(in_array($medal['medalid'], $membermedal)) { ?>
+                                已拥有
+                                <?php } else { ?>
+                                <?php if($medal['type'] && $_G['uid']) { ?>
+                                <?php if(in_array($medal['medalid'], $mymedals)) { ?>
+                                <?php if($medal['price']) { ?>
+                                已购买
+                                <?php } else { ?>
+                                <?php if(!$medal['permission']) { ?>
+                                已申请
+                                <?php } else { ?>
+                                已领取
+                                <?php } ?>
+                                <?php } ?>
+                                <?php } else { ?>
+                                <a href="javascript:;" onclick="showWindow('medal', 'home.php?mod=medal&action=confirm&medalid=<?php echo $medal['medalid'];?>')" class="xi2">
+                                    <?php if($medal['price']) { ?>
+                                    购买
+                                    <?php } else { ?>
+                                    <?php if(!$medal['permission']) { ?>
+                                    申请
+                                    <?php } else { ?>
+                                    领取
+                                    <?php } ?>
+                                    <?php } ?>
+                                </a>
+                                <?php } ?>
+                                <?php } ?>
+                                <?php } ?>
+                            </p>
+                        </li>
+                        <?php 
+
+                            }
+                            ?>                    </ul>
+                        <?php 
+                        }
+                        } else { if($medallogs) { ?>
 <p class="emp">您已经获得所有勋章了，恭喜您！</p>
 <?php } else { ?>
 <p class="emp">没有可用的勋章</p>
@@ -81,15 +130,42 @@
 </li>
 <?php } ?>
 </ul>
-<?php } } elseif($_GET['action'] == 'log') { if($mymedals) { ?>
-<ul class="mtm mgcl cl"><?php if(is_array($mymedals)) foreach($mymedals as $mymedal) { ?><?php echo $mymedals;?>
-<li>
+<?php } } elseif($_GET['action'] == 'log') { if($mymedals) { 
+$categoryArr = array(array('id' => 1, 'name' => '类型一'),
+                           array('id' => 2, 'name' => '类型二'),
+                           array('id' => 3, 'name' => '类型三')
+                        );
+$categoryMap = array_map();
+//print_r($mymedals);
+foreach($mymedals as $medal_m){
+if(empty($categoryMap[$medal_m[category]])){
+$categoryList=array($medal_m);
+$categoryMap[$medal_m['category']] = $categoryList;
+continue;
+}
+$categoryList = $categoryMap[$medal_m[category]];
+array_push($categoryList,$medal_m);
+$categoryMap[$medal_m['category']] = $categoryList;
+}
+//print_r($categoryMap);
+foreach ($categoryMap as $k=>$v){
+foreach ($categoryArr as $key=>$medalName){
+if($categoryArr[$key]['id'] == $k){
+print_r($medalName["name"]);
+}
+}
+?><ul class="mtm mgcl cl"><?php 
+
+                            for ($i=0;$i<count($v);$i++){
+                                $mymedal = $v[$i];
+?><li>
 <div class="mg_img"><img src="<?php echo STATICURL;?>image/common/<?php echo $mymedal['image'];?>" alt="<?php echo $mymedal['name'];?>" style="margin-top: 20px;width:auto; height: auto;" /></div>
 <p><strong><?php echo $mymedal['name'];?></strong></p>
-</li>
-<?php } ?>
-</ul>
-<?php } if($medallogs) { ?>
+</li><?php 
+                            }
+                            ?></ul><?php 
+}
+?><?php } if($medallogs) { ?>
 <h3 class="tbmu">勋章记录</h3>
 <ul class="el ptm pbw mbw"><?php if(is_array($medallogs)) foreach($medallogs as $medallog) { ?><li style="padding-left:10px;">
 <?php if($medallog['type'] == 2 || $medallog['type'] == 3) { ?>

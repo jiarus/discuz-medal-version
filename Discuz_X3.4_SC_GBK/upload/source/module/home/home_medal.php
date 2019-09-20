@@ -149,6 +149,7 @@ if(empty($_GET['action'])) {
 			}
 			$mymedal['name'] = $_G['cache']['medals'][$medalid]['name'];
 			$mymedal['image'] = $medallist[$medalid]['image'];
+            $mymedal['category'] = $medallist[$medalid]['category'];
 			$mymedals[] = $mymedal;
 		}
 	}
